@@ -1,5 +1,6 @@
 import React from "react";
 import ProgressBar from "./components/percentage";
+import Form from "./components/Form";
 
 
 
@@ -8,7 +9,8 @@ import ProgressBar from "./components/percentage";
   return (
     
       <div>
-      <ProgressBar />
+      {/* <ProgressBar /> */}
+      <Form />
       
       </div>
     
