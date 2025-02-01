@@ -1,6 +1,7 @@
 import React from "react";
 import ProgressBar from "./components/percentage";
 import Form from "./components/Form";
+import TimerButton from "./components/TimerButton";
 
 
 
@@ -10,8 +11,8 @@ import Form from "./components/Form";
     
       <div>
       {/* <ProgressBar /> */}
-      <Form />
-      
+      {/* <Form /> */}
+      <TimerButton />      
       </div>
     
   );
