@@ -3,7 +3,7 @@ import React, { Suspense, lazy } from "react";
 // Lazy-loaded component with a delay for simulation purposes
 const LazyLoadedComponent = lazy(() => {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(import("./LazyLoadedComponent")), 2000); // 2-second delay
+    setTimeout(() => resolve(import("./LazyComponent")), 2000); // 2-second delay
   });
 });
 
@@ -21,5 +21,7 @@ function LazyLoading() {
     </div>
   );
 }
+
+
 
 export default LazyLoading;
