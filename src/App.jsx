@@ -2,6 +2,7 @@ import React from "react";
 import ProgressBar from "./components/percentage";
 import Form from "./components/Form";
 import TimerButton from "./components/TimerButton";
+import LazyLoading from "./components/LazyLoading";
 
 
 
@@ -12,7 +13,8 @@ import TimerButton from "./components/TimerButton";
       <div>
       {/* <ProgressBar /> */}
       {/* <Form /> */}
-      <TimerButton />      
+      {/* <TimerButton />       */}
+      <LazyLoading />
       </div>
     
   );
