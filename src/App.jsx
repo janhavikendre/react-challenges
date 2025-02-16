@@ -3,6 +3,9 @@ import ProgressBar from "./components/percentage";
 import Form from "./components/Form";
 import TimerButton from "./components/TimerButton";
 import LazyLoading from "./components/LazyLoading";
+import SubmitForm from "./components/SubmitForm";
+import Nothing from "./components/nothing";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 
@@ -14,7 +17,13 @@ import LazyLoading from "./components/LazyLoading";
       {/* <ProgressBar /> */}
       {/* <Form /> */}
       {/* <TimerButton />       */}
-      <LazyLoading />
+      {/* <LazyLoading /> */}
+      <Router>
+      <Routes>
+        <Route path='/' element={<SubmitForm />} />
+        <Route path='/results' element={<Nothing />} />
+      </Routes>
+    </Router>
       </div>
     
   );

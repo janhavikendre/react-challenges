@@ -13,7 +13,7 @@ function LazyLoading() {
       <div className="p-4 bg-white shadow-lg rounded-lg">
         <h1 className="text-2xl font-bold text-center mb-4">Lazy Load Demo</h1>
 
-        {/* Suspense with fallback for lazy loading */}
+        
         <Suspense fallback={<div className="text-center text-gray-500">Loading...</div>}>
           <LazyLoadedComponent />
         </Suspense>
