@@ -6,6 +6,7 @@ import LazyLoading from "./components/LazyLoading";
 import SubmitForm from "./components/SubmitForm";
 import Nothing from "./components/nothing";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Component from "./components/Component";
 
 
 
@@ -18,12 +19,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
       {/* <Form /> */}
       {/* <TimerButton />       */}
       {/* <LazyLoading /> */}
-      <Router>
+      {/* <Router>
       <Routes>
         <Route path='/' element={<SubmitForm />} />
         <Route path='/results' element={<Nothing />} />
       </Routes>
-    </Router>
+    </Router> */}
+    <Component />
       </div>
     
   );
